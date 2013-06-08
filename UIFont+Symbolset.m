@@ -11,7 +11,7 @@
 @implementation UIFont (Symbolset)
 
 +(instancetype) ssStandardFontWithSize:(CGFloat)size {
-  return [UIFont fontWithName:@"SS Standard" size:size];
+  return [UIFont fontWithName:@"SSStandard" size:size];
 }
 
 +(NSString*) ssStandardSymbolForString:(NSString*)string {
@@ -426,7 +426,7 @@
 }
 
 +(instancetype) ssSocialFontWithSize:(CGFloat)size {
-  return [UIFont fontWithName:@"SS Social Regular" size:size];
+  return [UIFont fontWithName:@"SSSocialRegular" size:size];
 }
 
 +(NSString*) ssSocialSymbolForString:(NSString*)string {
@@ -482,7 +482,7 @@
 }
 
 +(instancetype) ssSocialCircleFontWithSize:(CGFloat)size {
-  return [UIFont fontWithName:@"SS Social Circle" size:size];
+  return [UIFont fontWithName:@"SSSocialCircle" size:size];
 }
 
 +(NSString*) ssSocialSymbolCircleForString:(NSString*)string {
